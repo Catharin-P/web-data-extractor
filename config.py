@@ -1,28 +1,37 @@
 # config.py
 
-# --- Login Credentials ---
+# --- Login Details ---
 # IMPORTANT: Use environment variables in a real production scenario
-LOGIN_URL = "https://your-app.com/login"
-USERNAME = "your_username"
-PASSWORD = "your_password"
+LOGIN_URL = "https://app.thehousekraft.com/login" # The page where you enter the phone number
+PHONE_NUMBER = "1231231231" # Your actual phone number
+STATIC_OTP = "111111" # The simplified, static OTP you are using
 
 # --- Target Application ---
-START_URL_AFTER_LOGIN = "https://your-app.com/dashboard" # The first page to crawl after logging in
+START_URL_AFTER_LOGIN = "https://app.thehousekraft.com/home" # The first page to crawl after logging in
+LOGIN_SUCCESS_INDICATOR_TEXT = "Welcome"
+# --- CSS Selectors for the OTP Login Flow ---
+# You MUST find these using your browser's "Inspect Element" tool.
+# These are examples and will NOT work on your site without being changed.
 
-# --- Selectors for Login ---
-# These are CSS selectors. You MUST inspect your app's login page to find the correct ones.
-USERNAME_SELECTOR = "#username" # e.g., 'input[name="email"]'
-PASSWORD_SELECTOR = "#password" # e.g., 'input[name="password"]'
-SUBMIT_BUTTON_SELECTOR = 'button[type="submit"]' # e.g., '#login-button'
+# 1. Phone Number Input Field
+PHONE_NUMBER_SELECTOR = 'input[name="phone"]' # e.g., '#phone-input', 'input[type="tel"]'
 
-# A selector for an element that ONLY appears after a successful login
-# This is crucial for verifying that the login worked.
-LOGIN_SUCCESS_INDICATOR_SELECTOR = "#dashboard-title" # e.g., 'a[href="/logout"]'
+# 2. Button to click AFTER entering the phone number (e.g., "Send OTP", "Continue")
+SEND_OTP_BUTTON_SELECTOR = 'button#send-otp-button' # e.g., 'button:contains("Send OTP")'
+
+# 3. OTP Input Field (this might only appear AFTER you click the button above)
+OTP_INPUT_SELECTOR = 'input[name="otp"]' # e.g., '#otp-field', 'input[aria-label="One-Time Password"]'
+
+# 4. Final button to submit the OTP (e.g., "Verify", "Login")
+VERIFY_OTP_BUTTON_SELECTOR = 'button[type="submit"]' # e.g., 'button:contains("Verify")'
+
+# 5. An element that ONLY appears after a successful login to confirm it worked.
+LOGIN_SUCCESS_INDICATOR_SELECTOR = "#user-avatar" # e.g., 'a[href="/logout"]', '.dashboard'
 
 # --- Crawler Settings ---
-# Path to a folder containing files to be used for upload forms
 IMAGE_UPLOAD_FOLDER = "images"
-# File for the final structured data
 STRUCTURED_DATA_FILE = "structured_data_with_flow.json"
-# File for the site graph
 GRAPH_FILE = "site_graph_with_flow.gpickle"
+
+#openai api key
+OPENAI_API_KEY = "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"
