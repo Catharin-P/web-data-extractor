@@ -9,7 +9,7 @@ from utils.summarizer import TextSummarizer
 
 # --- Configuration ---
 # You can change this to the starting URL of the web app you want to analyze
-START_URL = "http://books.toscrape.com/"
+START_URL = "https://dfj46osmubi17.cloudfront.net/home"
 STRUCTURED_DATA_FILE = "structured_data.json"
 GRAPH_FILE = "site_graph.gpickle"
 
