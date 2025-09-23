@@ -1,136 +1,78 @@
-# User Flow Guide for House Kraft Web Application
+# User Flow Guide for House Kraft Dashboard
 
-Welcome to the House Kraft web application! This guide will help you navigate through the main features of the platform, starting from the dashboard and leading you through various essential pages. Let’s get started on your journey to create your dream home!
+Welcome to the House Kraft Dashboard! This guide will walk you through the key features of the application, starting from the home page. Let’s embark on this journey to explore all the exciting functionalities available to you!
 
 ## Step 1: Start at the Home Page
-**URL:** [https://app.thehousekraft.com/home](https://app.thehousekraft.com/home)
+- **URL:** [Home Page](https://dashboard.thehousekraft.com/dashboard)
+- **What You Can Do:**
+  - Get an overview of your projects, leads, and orders.
+  - View key financial metrics and project statuses.
+  - Access tools for generating promo codes and project overviews.
 
-- **Overview:** This is your dashboard where you can manage all aspects of your home interior design projects.
-- **Key Features:**
-  - Create new projects
-  - View your saved projects
-  - Access your orders
-  - Consult with interior designers
-  - Explore resources and inspirations
+## Step 2: Explore Your Projects
+- **URL:** [Projects](https://dashboard.thehousekraft.com/projects)
+- **What You Can Do:**
+  - Manage and track all your projects in one place.
+  - View project statuses and collaborate with team members.
+  - Click on any project to see detailed information.
 
-### Next Steps:
-- Click on **“New Project”** to start a new design journey.
+### Step 2.1: View Detailed Project Information
+- **Example URL:** [Project Details](https://dashboard.thehousekraft.com/projects/331/project-details)
+- **What You Can Do:**
+  - Access detailed project data, including schedules and resources.
+  - Manage assignees and track project progress.
 
----
+## Step 3: Check Your Leads
+- **URL:** [Leads](https://dashboard.thehousekraft.com/leads)
+- **What You Can Do:**
+  - View and manage potential customer leads.
+  - Track follow-up actions and update lead statuses to enhance your sales opportunities.
 
-## Step 2: Create a New Project
-**URL:** [https://app.thehousekraft.com/new-project](https://app.thehousekraft.com/new-project)
+## Step 4: Manage Your Orders
+- **URL:** [Orders](https://dashboard.thehousekraft.com/orders)
+- **What You Can Do:**
+  - View and manage all your orders related to House Kraft.
+  - Track the status of your orders and make necessary updates.
 
-- **Overview:** Here, you can set up a new interior design project.
-- **Key Features:**
-  - Input project details (name, description)
-  - Set a budget for your project
-  - Upload floor plans and other relevant documents
+### Step 4.1: View All Orders
+- **Example URL:** [All Orders - Installation & Handover](https://dashboard.thehousekraft.com/orders/all-orders?status[]=INSTALLATION&status[]=SITE_INSPECTION&status[]=HANDOVER)
+- **What You Can Do:**
+  - Get a comprehensive overview of orders in various stages like installation and handover.
+  - Collaborate with your team to ensure smooth order processing.
 
-### Next Steps:
-- Once your project is set up, you can save it and return to the home page, or explore more by clicking on **“Saved Projects”**.
+## Step 5: Find Inspiration
+- **URL:** [Inspirations](https://dashboard.thehousekraft.com/inspirations)
+- **What You Can Do:**
+  - Browse through design ideas and decor inspirations.
+  - Save your favorite inspirations for future reference.
 
----
+## Step 6: Explore Products
+- **URL:** [Products](https://dashboard.thehousekraft.com/products)
+- **What You Can Do:**
+  - View and manage the products offered by House Kraft.
+  - Edit or organize product listings to suit your needs.
 
-## Step 3: Manage Your Saved Projects
-**URL:** [https://app.thehousekraft.com/saved-projects](https://app.thehousekraft.com/saved-projects)
+## Step 7: Check Approval Status
+- **URL:** [Approval](https://dashboard.thehousekraft.com/approval)
+- **What You Can Do:**
+  - Manage and review the approval status of various projects.
+  - Track any delays and ensure all documentation is in order.
 
-- **Overview:** This page allows you to view and manage all your previously saved projects.
-- **Key Features:**
-  - Access project details and quotations
-  - Resume work on projects you’ve saved earlier
+## Step 8: Utilize Builder Costing
+- **URL:** [Builder Costing](https://dashboard.thehousekraft.com/builder-costing)
+- **What You Can Do:**
+  - Access detailed cost estimates for construction components.
+  - Calculate expenses for your projects to stay within budget.
 
-### Next Steps:
-- If you want to check on your orders related to these projects, click on **“My Orders”**.
+## Step 9: Generate Promo Codes
+- **URL:** [Promo Code](https://dashboard.thehousekraft.com/promo-code)
+- **What You Can Do:**
+  - Create and manage promo codes for your projects.
+  - Track the validity and claims associated with each promo code.
 
----
+## Step 10: Review All Tickets
+- **URL:** [All Tickets](https://dashboard.thehousekraft.com/all-tickets)
+- **What You Can Do:**
+  - View and manage all tickets related to your projects.
+  - Check ticket statuses and follow up on any pending issues.
 
-## Step 4: View Your Orders
-**URL:** [https://app.thehousekraft.com/my-orders](https://app.thehousekraft.com/my-orders)
-
-- **Overview:** This page is dedicated to managing your orders.
-- **Key Features:**
-  - View the status of pending orders
-  - Check details related to your interior design projects
-
-### Next Steps:
-- If you're looking for inspiration or ideas for your projects, head over to **“All Inspirations”**.
-
----
-
-## Step 5: Explore Inspirations
-**URL:** [https://app.thehousekraft.com/all-inspirations](https://app.thehousekraft.com/all-inspirations)
-
-- **Overview:** Discover a variety of design inspirations to enhance your projects.
-- **Key Features:**
-  - Browse AI-generated ideas
-  - View uploaded content and saved ideas
-
-### Next Steps:
-- If you want to create stunning design renders, click on **“Rekraft”**.
-
----
-
-## Step 6: Generate Design Renders
-**URL:** [https://app.thehousekraft.com/rekraft](https://app.thehousekraft.com/rekraft)
-
-- **Overview:** This page helps you create and generate interior design render images.
-- **Key Features:**
-  - Select room types and themes
-  - Manage your projects and credits effectively
-
-### Next Steps:
-- To enhance your knowledge, check out the **“Resources”** section.
-
----
-
-## Step 7: Access Resources
-**URL:** [https://app.thehousekraft.com/resources](https://app.thehousekraft.com/resources)
-
-- **Overview:** A treasure trove of guides and information related to interior design.
-- **Key Features:**
-  - Explore articles on kitchen designs, materials, and planning
-  - Access tips on furniture placement and color combinations
-
-### Next Steps:
-- If you have questions or need support, visit the **“Support”** page.
-
----
-
-## Step 8: Get Support
-**URL:** [https://app.thehousekraft.com/support](https://app.thehousekraft.com/support)
-
-- **Overview:** This page offers assistance with any queries you may have.
-- **Key Features:**
-  - Raise queries and track support tickets
-  - Access frequently asked questions
-
-### Next Steps:
-- If you need direct assistance, consider using the **“Chat”** feature.
-
----
-
-## Step 9: Use Chat Support
-**URL:** [https://app.thehousekraft.com/chat](https://app.thehousekraft.com/chat)
-
-- **Overview:** A live chat feature for immediate assistance.
-- **Key Features:**
-  - Get help with interior design inquiries
-  - Ask about furniture and related services
-
-### Next Steps:
-- If you want to connect with the team for more personalized guidance, click on **“Contact Us”**.
-
----
-
-## Step 10: Contact Us
-**URL:** [https://app.thehousekraft.com/contact-us](https://app.thehousekraft.com/contact-us)
-
-- **Overview:** Find various ways to reach out for assistance.
-- **Key Features:**
-  - Contact information for personalized help
-  - Guidance on interior design solutions
-
----
-
-Congratulations! You have successfully navigated through the main features of the House Kraft web application. Feel free to revisit any section to enhance your home design experience. Happy designing!

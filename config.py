@@ -2,12 +2,12 @@
 
 # --- Login Details ---
 # IMPORTANT: Use environment variables in a real production scenario
-LOGIN_URL = "https://app.thehousekraft.com/login" # The page where you enter the phone number
+LOGIN_URL = "https://dashboard.thehousekraft.com/login" # The page where you enter the phone number
 PHONE_NUMBER = "1231231231" # Your actual phone number
 STATIC_OTP = "111111" # The simplified, static OTP you are using
 
 # --- Target Application ---
-START_URL_AFTER_LOGIN = "https://app.thehousekraft.com/home" # The first page to crawl after logging in
+START_URL_AFTER_LOGIN = "https://dashboard.thehousekraft.com/dashboard" # The first page to crawl after logging in
 LOGIN_SUCCESS_INDICATOR_TEXT = "Welcome"
 # --- CSS Selectors for the OTP Login Flow ---
 # You MUST find these using your browser's "Inspect Element" tool.
