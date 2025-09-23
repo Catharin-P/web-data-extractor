@@ -32,6 +32,3 @@ LOGIN_SUCCESS_INDICATOR_SELECTOR = "#user-avatar" # e.g., 'a[href="/logout"]', '
 IMAGE_UPLOAD_FOLDER = "images"
 STRUCTURED_DATA_FILE = "structured_data_with_flow.json"
 GRAPH_FILE = "site_graph_with_flow.gpickle"
-
-#openai api key
-OPENAI_API_KEY = "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"
